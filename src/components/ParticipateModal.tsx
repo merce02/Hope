@@ -51,7 +51,7 @@ export const ParticipateModal: React.FC<ParticipateModalProps> = ({ isOpen, onCl
         {!isSuccess ? (
           <div>
             <span className="section-label">Participa en HOPE</span>
-            <h3 style="margin-bottom: 8px;">Únete al proyecto</h3>
+            <h3 style={{ marginBottom: "8px" }}>Únete al proyecto</h3>
             <p className="modal-subtitle">Cuéntanos cómo te gustaría formar parte del centro El Carme.</p>
 
             <div className="role-chips" role="radiogroup" aria-label="Selecciona tu perfil">
